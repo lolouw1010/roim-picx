@@ -1,0 +1,21 @@
+name = "roim-picx"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "dist"
+
+[vars]
+BASE_URL = "https://pics.uway.click"
+PICX_AUTH_TOKEN = "2Wsx1qaz!@"
+ALLOW_TOKEN_LOGIN = "true"
+
+[[kv_namespaces]]
+binding = "XK"
+id = "e1b913d539d241d79dac4648dcb32019"
+
+[[r2_buckets]]
+binding = "PICX"
+bucket_name = "picx-images"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "picx-db"
+database_id = "156287e8-d1ff-4b86-bb5c-4d91704a2911"
